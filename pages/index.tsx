@@ -4,17 +4,11 @@ export default function Home() {
   return (
     <div id="app">
       <header className="relative z-50 w-full flex-none text-sm font-semibold leading-6 text-slate-900">
-        <nav
-          aria-label="Global"
-          className="mx-auto max-w-container px-4 sm:px-6 lg:px-8">
+        <nav className="mx-auto max-w-container px-4 sm:px-6 lg:px-8">
           <div className="relative flex items-center py-[2.125rem]">
             <a className="mr-auto flex-none text-slate-900" href="/">
               <span className="sr-only">Tailwind UI</span>
-              <svg
-                className="h-6 w-auto"
-                aria-hidden="true"
-                viewBox="0 0 160 24"
-                fill="none">
+              <svg className="h-6 w-auto" viewBox="0 0 160 24" fill="none">
                 <path
                   d="M18.724 1.714c-4.538 0-7.376 2.286-8.51 6.857 1.702-2.285 3.687-3.143 5.957-2.57 1.296.325 2.22 1.271 3.245 2.318 1.668 1.706 3.6 3.681 7.819 3.681 4.539 0 7.376-2.286 8.51-6.857-1.701 2.286-3.687 3.143-5.957 2.571-1.294-.325-2.22-1.272-3.245-2.32-1.668-1.705-3.6-3.68-7.819-3.68zM10.214 12c-4.539 0-7.376 2.286-8.51 6.857 1.701-2.286 3.687-3.143 5.957-2.571 1.294.325 2.22 1.272 3.245 2.32 1.668 1.705 3.6 3.68 7.818 3.68 4.54 0 7.377-2.286 8.511-6.857-1.702 2.286-3.688 3.143-5.957 2.571-1.295-.326-2.22-1.272-3.245-2.32-1.669-1.705-3.6-3.68-7.82-3.68z"
                   className="fill-sky-400"
@@ -73,7 +67,7 @@ export default function Home() {
                 className="inline-flex justify-center rounded-lg text-sm font-semibold py-2.5 px-4 bg-slate-900 text-white hover:bg-slate-700 -my-2.5 ml-8"
                 href="/all-access">
                 <span>
-                  Get all-access <span aria-hidden="true">→</span>
+                  Get all-access <span>→</span>
                 </span>
               </a>
             </div>
@@ -82,9 +76,7 @@ export default function Home() {
       </header>
       <div className="relative -mt-[5.75rem] overflow-hidden pb-16 pt-[5.75rem]">
         <div className="relative mx-auto mt-16 grid w-full max-w-container grid-cols-1 px-4 sm:mt-20 sm:px-6 lg:px-8 xl:mt-32">
-          <div
-            className="col-start-1 row-start-1 h-7 text-base font-semibold leading-7 text-sky-500"
-            aria-hidden="true">
+          <div className="col-start-1 row-start-1 h-7 text-base font-semibold leading-7 text-sky-500">
             By the makers of Tailwind CSS
           </div>
           <h1 className="col-start-1 row-start-2 mt-4 max-w-[36rem] text-4xl font-extrabold tracking-tight text-slate-900 sm:text-7xl xl:max-w-[43.5rem]">
@@ -101,11 +93,7 @@ export default function Home() {
               href="/components">
               <span>
                 Browse components{/* */}{' '}
-                <span
-                  aria-hidden="true"
-                  className="hidden text-slate-400 sm:inline">
-                  →
-                </span>
+                <span className="hidden text-slate-400 sm:inline">→</span>
               </span>
             </a>
             <a
@@ -113,31 +101,21 @@ export default function Home() {
               href="/templates">
               <span>
                 Explore templates{/* */}{' '}
-                <span
-                  aria-hidden="true"
-                  className="hidden text-black/25 sm:inline">
-                  →
-                </span>
+                <span className="hidden text-black/25 sm:inline">→</span>
               </span>
             </a>
           </div>
         </div>
       </div>
       <section className="mx-auto w-full max-w-container px-4 sm:px-6 lg:px-8">
-        <div
-          className="mt-16 flex border-t border-slate-200 sm:space-x-10 md:grid md:grid-cols-3 md:gap-x-8 md:space-x-0">
+        <div className="mt-16 flex border-t border-slate-200 sm:space-x-10 md:grid md:grid-cols-3 md:gap-x-8 md:space-x-0">
           <div>
             <div className="relative -mt-px border-t pb-6 pt-4 text-left md:pb-10 md:pt-8 border-indigo-500">
               <h3>
                 <button
                   className="whitespace-nowrap text-sm font-semibold leading-7 sm:text-base [&amp;:not(:focus-visible)]:focus:outline-none text-indigo-600"
                   id="headlessui-tabs-tab-55"
-                  role="tab"
-                  type="button"
-                  aria-selected="true"
-                  tabindex="0"
-                  data-headlessui-state="selected"
-                  aria-controls="headlessui-tabs-panel-58">
+                  data-headlessui-state="selected">
                   <span className="absolute inset-0 -top-px"></span>Application
                   UI
                 </button>
@@ -148,9 +126,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div
-            className="w-10 min-w-[1rem] shrink sm:hidden"
-            aria-hidden="true"></div>
+          <div className="w-10 min-w-[1rem] shrink sm:hidden"></div>
           <div>
             <div className="relative -mt-px border-t pb-6 pt-4 text-left md:pb-10 md:pt-8 border-transparent hover:border-slate-400">
               <h3>
@@ -159,10 +135,7 @@ export default function Home() {
                   id="headlessui-tabs-tab-56"
                   role="tab"
                   type="button"
-                  aria-selected="false"
-                  tabindex="-1"
-                  data-headlessui-state=""
-                  aria-controls="headlessui-tabs-panel-59">
+                  data-headlessui-state="">
                   <span className="absolute inset-0 -top-px"></span>Marketing
                 </button>
               </h3>
@@ -172,9 +145,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div
-            className="w-10 min-w-[1rem] shrink sm:hidden"
-            aria-hidden="true"></div>
+          <div className="w-10 min-w-[1rem] shrink sm:hidden"></div>
           <div>
             <div className="relative -mt-px border-t pb-6 pt-4 text-left md:pb-10 md:pt-8 border-transparent hover:border-slate-400">
               <h3>
@@ -183,10 +154,7 @@ export default function Home() {
                   id="headlessui-tabs-tab-57"
                   role="tab"
                   type="button"
-                  aria-selected="false"
-                  tabindex="-1"
-                  data-headlessui-state=""
-                  aria-controls="headlessui-tabs-panel-60">
+                  data-headlessui-state="">
                   <span className="absolute inset-0 -top-px"></span>Ecommerce
                 </button>
               </h3>
@@ -203,7 +171,6 @@ export default function Home() {
         <div className="border-t border-slate-900/5 py-10">
           <svg
             className="mx-auto h-5 w-auto text-slate-900"
-            aria-hidden="true"
             viewBox="0 0 160 24"
             fill="none">
             <path
